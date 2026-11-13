@@ -424,7 +424,7 @@ try:
 
     st.plotly_chart(
         fig_map,
-        use_container_width=True
+        width="stretch"
     )
 
     st.success(
@@ -492,7 +492,7 @@ fig_monthly.update_layout(
 
 st.plotly_chart(
     fig_monthly,
-    use_container_width=True
+    width="stretch"
 )
 
 
@@ -530,7 +530,7 @@ fig_annual.update_layout(
 
 st.plotly_chart(
     fig_annual,
-    use_container_width=True
+    width="stretch"
 )
 
 
@@ -573,7 +573,7 @@ fig_comparison.update_layout(
 
 st.plotly_chart(
     fig_comparison,
-    use_container_width=True
+    width="stretch"
 )
 
 
@@ -596,7 +596,7 @@ summary = (
 
 st.dataframe(
     summary,
-    use_container_width=True
+    width="stretch"
 )
 
 
